@@ -10,7 +10,10 @@ import { Recipe } from "../recipe.model";
 export class RecipeListComponent implements OnInit {
 
   recipes: Recipe[] = [
-    new Recipe('A Test Recipe', 'This is simply a test', 'https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.vegrecipesofindia.com%2Fwp-content%2Fuploads%2F2013%2F03%2Fpulao-recipe-280x280.jpg&imgrefurl=https%3A%2F%2Fwww.vegrecipesofindia.com%2Frecipes%2F&tbnid=g0t__gIxITbesM&vet=12ahUKEwj72N3Codz4AhUyi9gFHecuAPoQMygaegUIARCfAg..i&docid=KVEdjHdWqLnqMM&w=280&h=280&q=recipe&ved=2ahUKEwj72N3Codz4AhUyi9gFHecuAPoQMygaegUIARCfAg')
+    new Recipe('A Test Recipe', 'This is simply a test', 
+    'https://www.simplyrecipes.com/thmb/RheeF949ewwGy7pxQQNt5v63Oi0=/720x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Homemade-Pizza-Dough-Lead-Shot-1c-c2b1885d27d4481c9cfe6f6286a64342.jpg'),
+    new Recipe('A Test Recipe', 'This is simply a test', 
+    'https://www.simplyrecipes.com/thmb/RheeF949ewwGy7pxQQNt5v63Oi0=/720x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Homemade-Pizza-Dough-Lead-Shot-1c-c2b1885d27d4481c9cfe6f6286a64342.jpg')
   ]
 
   constructor() { }

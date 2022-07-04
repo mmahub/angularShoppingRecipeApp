@@ -1,0 +1,3 @@
+#btnadd, #btndelete{        /* This will add spaces between the buttons, Add, Delete and Clear */       
+    margin-right: 5px;
+}
